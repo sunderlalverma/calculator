@@ -11,8 +11,8 @@ exports.calculate = function(req, res) {
   });
 
   var operations = {
-    //adding comment to expalain addition new
-    'add':      function(a,b) { return +a + b },
+    //adding comment to expalain addition
+    'add':      function(a,b) { return +a + +b },
     'subtract': function(a,b) { return a - b },
     'multiply': function(a,b) { return a * b },
     'divide':   function(a,b) { return a / b },
